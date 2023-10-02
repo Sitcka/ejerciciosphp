@@ -29,14 +29,3 @@ print_r($array);
 //Funcion in_array busca si esta ese elemento en el array. 
 $array2 = array(4, "xvds", 8.8);
 echo "<br>Esta el 10? " . in_array(98,$array2);
-
-/*
-11. Construye un array con el nombre de 4 países. Por cada país debes almacenar su moneda y
-número de habitantes. Muéstralo por pantalla.
-12. Crea una función para resolver ecuaciones de segundo grado. Esta función debe recibir los
-coeficientes de la ecuación y devolver un array con las soluciones. Si no hay soluciones reales
-devuelve FALSE.
-13. Almacena la función anterior en el fichero matemáticas.php. Crea un fichero que la incluya y la
-utilice.
-14. Escribe una función que reciba una cadena y compruebe si es palíndromo.
-*/
