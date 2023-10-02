@@ -31,8 +31,6 @@ $array2 = array(4, "xvds", 8.8);
 echo "<br>Esta el 10? " . in_array(98,$array2);
 
 /*
-10. Repite el ejercicio 8 creando un array asociativo. Cada posición se llamará: base, escolta, alero,
-alapivot, pivot. Muestra el resultado con un foreach (clave => valor).
 11. Construye un array con el nombre de 4 países. Por cada país debes almacenar su moneda y
 número de habitantes. Muéstralo por pantalla.
 12. Crea una función para resolver ecuaciones de segundo grado. Esta función debe recibir los
