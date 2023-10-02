@@ -31,12 +31,6 @@ $array2 = array(4, "xvds", 8.8);
 echo "<br>Esta el 10? " . in_array(98,$array2);
 
 /*
-8. Construir un array con el quinteto inicial de un equipo de basket. Imprímelo usando etiquetas
-html de dos formas diferentes:
-a) Indicando solo los nombres.
-b) Indicando la posición del nombre en el array (0, 1, 2, ...).
-9. Repite el ejercicio anterior añadiendo los elementos del array uno a uno. Muestra el resultado
-por pantalla.
 10. Repite el ejercicio 8 creando un array asociativo. Cada posición se llamará: base, escolta, alero,
 alapivot, pivot. Muestra el resultado con un foreach (clave => valor).
 11. Construye un array con el nombre de 4 países. Por cada país debes almacenar su moneda y
