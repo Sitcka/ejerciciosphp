@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Todo esto es un formulario-->
+    <form name="flogin" action="autoriza.php" method="post">
+    <div>
+        <!--for debe estar asociado al id del input-->
+        <label for="usuario">Introduce el usuario: </label>
+        <input type="text" name="iusuario" id="usuario" required>
+        <br>
+        <br>
+        <br>
+        <!--En servidor es importante el atributo "name" (ctrl + shift + i es para ordenar el codigo)-->
+        <label for="password">Introduce la contraseña: </label>
+        <input type="text" name="ipassword" id="password" required>
+    </div>
+    <br><br>
+    <input type="submit" name="ienviar" value="Login">
+    </form>
+</body>
+
+</html>
