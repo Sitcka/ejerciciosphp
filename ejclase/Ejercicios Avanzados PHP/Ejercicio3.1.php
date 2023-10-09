@@ -23,3 +23,4 @@ if(isset($_GET["ienviar"]) && !empty($_GET["ienviar"])){
         echo "No has introducido algun dato solicitado.";
     }
 }
+echo "<button href='Ejercicio3.html'>Volver al inicio</button>";
