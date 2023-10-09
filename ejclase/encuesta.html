@@ -42,8 +42,21 @@
         </select>
         <br><br>
         <input type="submit" value="Enviar encuesta" name="ienviar">
-
     </form>
+    <div>
+        <br><br>
+        <form action="showfile.php" method="post" enctype="multipart/form-data" >
+            <!--Un fichero siempre debe subirse mediante post-->
+            <label for="ifile">Slecciona un fichero a subir.</label>
+            <br>
+            <input type="file" name="myfile" id="ifile">
+            <br>
+            <br>
+            <label for="ifichero">Click aquí para subir el fichero</label>
+            <br>
+            <input type="submit" value="Subir fichero" name="sfichero" id="ifichero">
+        </form>
+    </div>
 </body>
 
 </html>
